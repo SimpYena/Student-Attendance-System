@@ -3,8 +3,6 @@ from tkinter import ttk
 from PIL import Image, ImageTk
 
 
-
-
 class Student_Attendance_Sys:
     def __init__(self,root):
         self.root = root
