@@ -6,7 +6,7 @@ from tkinter import messagebox
 import cv2
 import os
 import numpy as np
-#understand lbp algorithm
+#understand lbph algorithm
 
 class Train: 
     def __init__(self, root):
@@ -36,7 +36,7 @@ class Train:
         f_lbl=Label(self.root,image=self.photoimg_bottom)
         f_lbl.place(x=0, y=440, width=1530, height=325)
 
-    # lbp algorithm
+    # lbph algorithm
     def train_classifier(self):
         data_dir=("data")
         path=[os.path.join(data_dir,file) for file in os.listdir(data_dir)]
