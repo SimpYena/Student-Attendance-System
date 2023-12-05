@@ -1,4 +1,5 @@
 #do in this class
+<<<<<<< HEAD
 from tkinter import *
 from tkinter import ttk
 from PIL import Image, ImageTk
@@ -291,4 +292,5 @@ if __name__ == "__main__":
     root.state("zoomed")
     obj=Student(root)
     root.mainloop()
+#create form and mysql 
 #generate dataset
